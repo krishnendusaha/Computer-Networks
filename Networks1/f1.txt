@@ -1,0 +1,190 @@
+Max frequency - 7.71037
+8.271344 48.445661 6.108190
+28.666202 7.596906 1.614253
+18.894781 21.595150 1.066058
+29.085772 30.107872 2.385579
+26.567150 15.305111 0.273745
+
+
+
+
+The mean_square_error is 31.8917 for sampling frequency 3
+
+The mean_square_error is 34.4311 for sampling frequency 4
+
+The mean_square_error is 34.5594 for sampling frequency 5
+
+The mean_square_error is 33.684 for sampling frequency 6
+
+The mean_square_error is 32.4187 for sampling frequency 7
+
+The mean_square_error is 31.1086 for sampling frequency 8
+
+The mean_square_error is 29.6679 for sampling frequency 9
+
+The mean_square_error is 28.1229 for sampling frequency 10
+
+The mean_square_error is 26.7304 for sampling frequency 11
+
+The mean_square_error is 25.5121 for sampling frequency 12
+
+The mean_square_error is 24.4749 for sampling frequency 13
+
+The mean_square_error is 23.495 for sampling frequency 14
+
+The mean_square_error is 22.6288 for sampling frequency 15
+
+The mean_square_error is 21.8504 for sampling frequency 16
+
+The mean_square_error is 21.1291 for sampling frequency 17
+
+The mean_square_error is 20.4668 for sampling frequency 18
+
+The mean_square_error is 19.8661 for sampling frequency 19
+
+The mean_square_error is 19.3109 for sampling frequency 20
+
+The mean_square_error is 18.7982 for sampling frequency 21
+
+The mean_square_error is 18.3284 for sampling frequency 22
+
+The mean_square_error is 17.9032 for sampling frequency 23
+
+The mean_square_error is 17.4931 for sampling frequency 24
+
+The mean_square_error is 17.1231 for sampling frequency 25
+
+The mean_square_error is 16.7715 for sampling frequency 26
+
+The mean_square_error is 16.4364 for sampling frequency 27
+
+The mean_square_error is 16.125 for sampling frequency 28
+
+The mean_square_error is 15.8379 for sampling frequency 29
+
+The mean_square_error is 15.5598 for sampling frequency 30
+
+The mean_square_error is 15.3074 for sampling frequency 31
+
+The mean_square_error is 15.0602 for sampling frequency 32
+
+The mean_square_error is 14.8234 for sampling frequency 33
+
+The mean_square_error is 14.5955 for sampling frequency 34
+
+The mean_square_error is 14.3825 for sampling frequency 35
+
+The mean_square_error is 14.1814 for sampling frequency 36
+
+The mean_square_error is 13.9896 for sampling frequency 37
+
+The mean_square_error is 13.8047 for sampling frequency 38
+
+The mean_square_error is 13.6303 for sampling frequency 39
+
+The mean_square_error is 13.4591 for sampling frequency 40
+
+The mean_square_error is 13.2933 for sampling frequency 41
+
+The mean_square_error is 13.1336 for sampling frequency 42
+
+The mean_square_error is 12.985 for sampling frequency 43
+
+The mean_square_error is 12.8368 for sampling frequency 44
+
+The mean_square_error is 12.6961 for sampling frequency 45
+
+The mean_square_error is 12.561 for sampling frequency 46
+
+The mean_square_error is 12.4328 for sampling frequency 47
+
+The mean_square_error is 12.3087 for sampling frequency 48
+
+The mean_square_error is 12.1887 for sampling frequency 49
+
+The mean_square_error is 12.071 for sampling frequency 50
+
+The mean_square_error is 11.9567 for sampling frequency 51
+
+The mean_square_error is 11.8468 for sampling frequency 52
+
+The mean_square_error is 11.7413 for sampling frequency 53
+
+The mean_square_error is 11.6362 for sampling frequency 54
+
+The mean_square_error is 11.5362 for sampling frequency 55
+
+The mean_square_error is 11.4383 for sampling frequency 56
+
+The mean_square_error is 11.3429 for sampling frequency 57
+
+The mean_square_error is 11.2493 for sampling frequency 58
+
+The mean_square_error is 11.1597 for sampling frequency 59
+
+The mean_square_error is 11.073 for sampling frequency 60
+
+The mean_square_error is 10.9887 for sampling frequency 61
+
+The mean_square_error is 10.9093 for sampling frequency 62
+
+The mean_square_error is 10.8302 for sampling frequency 63
+
+The mean_square_error is 10.7513 for sampling frequency 64
+
+The mean_square_error is 10.6755 for sampling frequency 65
+
+The mean_square_error is 10.6009 for sampling frequency 66
+
+The mean_square_error is 10.5289 for sampling frequency 67
+
+The mean_square_error is 10.4565 for sampling frequency 68
+
+The mean_square_error is 10.3865 for sampling frequency 69
+
+The mean_square_error is 10.3197 for sampling frequency 70
+
+The mean_square_error is 10.2546 for sampling frequency 71
+
+The mean_square_error is 10.1884 for sampling frequency 72
+
+The mean_square_error is 10.1258 for sampling frequency 73
+
+The mean_square_error is 10.0646 for sampling frequency 74
+
+The mean_square_error is 10.0049 for sampling frequency 75
+
+The mean_square_error is 9.94602 for sampling frequency 76
+
+The mean_square_error is 9.88655 for sampling frequency 77
+
+The mean_square_error is 9.82987 for sampling frequency 78
+
+The mean_square_error is 9.77619 for sampling frequency 79
+
+The mean_square_error is 9.72269 for sampling frequency 80
+
+The mean_square_error is 9.66967 for sampling frequency 81
+
+The mean_square_error is 9.61837 for sampling frequency 82
+
+The mean_square_error is 9.56746 for sampling frequency 83
+
+The mean_square_error is 9.5173 for sampling frequency 84
+
+The mean_square_error is 9.46801 for sampling frequency 85
+
+The mean_square_error is 9.42042 for sampling frequency 86
+
+The mean_square_error is 9.37502 for sampling frequency 87
+
+The mean_square_error is 9.3301 for sampling frequency 88
+
+The mean_square_error is 9.28547 for sampling frequency 89
+
+The mean_square_error is 9.2411 for sampling frequency 90
+
+The mean_square_error is 9.19675 for sampling frequency 91
+
+The mean_square_error is 9.15637 for sampling frequency 92
+The number of samples are 90

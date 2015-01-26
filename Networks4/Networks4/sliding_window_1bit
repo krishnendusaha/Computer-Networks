@@ -1,0 +1,17 @@
+compile         = "sliding_window_1bit.c"
+winopen         = true
+probframecorrupt = 1
+propagationdelay = 400us
+bandwidth = 56Kbps
+
+host Sender {
+    messagerate = 50us
+    winx=0, winy=50    
+    link to Receiver
+}
+
+host Receiver {
+    messagerate = 5us
+    winx=50, winy=100
+        east east of Sender
+}

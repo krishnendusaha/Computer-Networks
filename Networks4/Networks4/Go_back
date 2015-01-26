@@ -1,0 +1,20 @@
+
+compile			= "Go_back_N.c"
+
+probframecorrupt = 1,        
+
+
+probframeloss = 1,
+
+bandwidth = 10Mbps,         
+
+propagationdelay = 400us,   
+
+
+
+host perth {
+   link to sydney
+}
+
+host sydney {
+}

@@ -1,0 +1,31 @@
+1)The development and the correctness of all the frameworks can be noticed by
+ running the API and by tracking the Trace,Statistics window,we can see the
+ real time statistics of the frame transfer at a low frequency and also see the
+ printf() statements at regular intervals for debugging and thereby the correctness
+ of the frameworks can be known.
+
+2)There can be two possibilities of failure of Simple ARQ protocol.One is that the  
+frame is completely lost and the other is that lets say the sender sends frame i 
+and the receiver recieves that frame i .The ack sent by it ,if damaged then the 
+sender resends it because the timeout time is over.The ithee frame is resend and as the 
+receiver was expecting the i+1th frame,it rejects it and this process continues for ever.
+
+
+3)The selective repeat protocol will fail if the number of frames exceeds the MaxSeq/2 when 
+the buffer of the receiver due to timeouts and errors have multiple copies of same frames
+at regular intervals.So, in a way,it is stuck in a loop which leads the protocol failure.	
+
+
+4) simple_ARQ.c implements the cimple ARQ protocol with one sender and one receiver.
+   
+5) sliding_window_1bit.c implements the sliding window protocol with the receiver window of size 1 bit.
+ 
+6) Go_back_N.c implements the Go-Back-N protocol variant with unit frame receiver window.
+   
+7) selective_repeat.c implements the Selective-Repeat ARQ protocol variant with multi-frame receiver window.
+
+8) sliding_window_1bit_throughput has the throughput V/S probabilty plot
+
+9) Go_back_throughput has the similar plot and also selective_repeat_throughput.dat as well
+
+10)The window size V/S throughput plot is int Throuhput_Window.dat

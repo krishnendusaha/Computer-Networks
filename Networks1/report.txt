@@ -1,0 +1,196 @@
+Signal Sampling Transmission and Reconstruction
+
+***Objective :  
+
+ Analogue signals needs to be digitized(quantized) in the source side for transmission over cables . 
+ Quantization leads to decrease in information due to quantization .
+ There comes error in the transmission process due to noise .
+ Number of Quantization levels and Sampling frequency needs to be decided optimally.
+ Reconstruction(Cubic Spline Interpolation) of the  analogue  signal from the digited values. 
+ The mean square error between actual signal and reconstructed signal needs to be minimum.
+ Approximation of fmax(maximum frequency component) from the mean square vs sampling frequency plot.
+
+***Implementation Details :
+  
+1)Construction of a signal: Taking addition of 5 sinusoid  with random amplitude(double between 5 and 50),
+frequency(double between 5 and 50) and phase values(double between 0 and 2*PI) .
+double randfrom(double,double)   function gives double between first argument and second argument.
+2)Sampling : Sampling over frequency 2*fmax  is  good for sampling . Otherwise mean square error will have a greater value.
+3)Quantization levels: Number of quantization levels should be at maximum  2*sqrt(1+ SNR)+1
+where SNR =   (max_amplitude*max_amplitude)/(MAX_NOISE*MAX_NOISE).
+so that after transmission the quantized value does'nt shift from one level to another . 
+4)The channel introduces error by giving a random value between -MAX_NOISE  to MAX_NOISE  .
+5)The received quantized values with error  again quantized in the receiver side to cancel the noise .
+6)Then those values are interpolated by cubic spline interpolation.
+7)To understand the fmax of signal the mean square error vs sampling_frequency    is plotted .
+
+
+File Content details:
+1.Sampling.c contains the main code.
+2.f1.txt  contents  are  amplitude ,frequency,phase of the five sinusoids .
+3.InputOutput.ps    actual sinusoid signal and reconstructed signal 
+4.MSEandSamplingfrequency.ps  contains Mean square error Vs sampling_frequency   graph
+
+
+***Run:
+Run the programme by running the make file.
+
+$ make 
+
+An example: Run  
+
+Sinusoid        Amplitude    2*PI*frequency      Phase
+first          5.886927         46.785712       1.340602
+second         28.750080        44.635331       5.290345
+third		   34.508822 		34.570863 		5.521485
+fourth		   23.934879 		40.618706 		5.471165
+fifth		   42.163156 		27.006782 		0.587942  
+
+
+fmax of th        five sinusoids          7.44618
+So 2*fmax= 15 (approx.) 
+
+Mean square error Vs sampling_frequency: 
+
+         40.1205         3
+
+         36.5219         4
+
+         35.0134         5
+
+         32.6858         6
+
+         30.7164         7
+
+         28.5641         8
+
+         26.7509         9
+
+         25.3928         10
+
+         24.0943         11
+         23.0025         12
+
+         21.967          13
+
+         21.0535         14
+
+         20.2288         15
+
+         19.5098         16
+
+         18.852          17
+
+         18.2665         18
+
+         17.736          19
+
+         17.2437         20
+
+         16.7916         21
+
+         16.3858         22
+
+         16.0079         23
+
+         15.6541         24
+
+         15.3245         25
+
+         15.0093         26
+
+         14.7211         27
+
+         14.4482         28
+
+         14.1866         29
+
+         13.9476         30
+
+         13.7225         31
+
+         13.5115         32
+
+         13.3021         33
+
+         13.1067         34
+
+         12.9156         35
+
+         12.7404         36
+
+         12.5668         37
+
+         12.4016         38
+
+         12.2453         39
+
+         12.0965         40
+
+         11.9514         41
+
+         11.8109         42
+
+         11.6795         43
+
+         11.5498         44
+
+         11.4301         45
+
+         11.3149         46
+
+         11.2039         47
+
+         11.0961         48
+
+         10.9884         49
+
+         10.8847         50
+
+         10.7861         51
+
+         10.6868         52
+
+         10.5923         53
+
+         10.4985         54
+
+         10.4098         55
+
+         10.3258         56
+
+         10.2453         57
+
+         10.1665         58
+
+         10.0903         59
+
+         10.0147         60
+
+         9.94091         61
+
+         9.87199         62
+
+         9.80179         63
+
+         9.73431         64
+
+         9.66821         65
+
+         9.60663         66
+
+         9.54412         67
+
+         9.48185         68
+
+         9.42203         69
+
+         9.36426         70
+
+         9.30372         71
+
+
+
+
+ So from the above values we can see from  3 - 15  sampling_frequency drop mean square error has dropped by    40.1205-20.2288 = 19.8917
+ and  for the next    15-71   the drop is only  20.2288-9.30372=10.92508   and the mean square error has become constant . 
